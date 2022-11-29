@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Kai.Solution.OpenIddict</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="$(VoloAbpPackageVersion)" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="$(VoloAbpPackageVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kai.Solution.OpenIddict.Domain.Shared\Kai.Solution.OpenIddict.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
